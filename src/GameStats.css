@@ -1,0 +1,21 @@
+.GameStats {
+  width: 511px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+@media all and (max-width: 420px) {
+  .GameStats {
+    width: 250px;
+  }
+}
+
+.GameStats-Wrapper {
+  display: flex;
+}
+
+.GameStats-Message {
+  line-height: 1.5em;
+  margin-right: 8px;
+}
